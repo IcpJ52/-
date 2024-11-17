@@ -1,7 +1,3 @@
-from random import randint
-from time import time
-
-
 def insertion_sort(lst):
     for i in range(1, len(lst)):
         tmp = lst[i]
@@ -22,6 +18,7 @@ def bubble_sort(lst):
             if lst[i] > lst[i + 1]:
                 lst[i], lst[i + 1] = lst[i + 1], lst[i]
                 unordered = True
+        n -= 1
     return lst
 
 

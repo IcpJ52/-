@@ -1,5 +1,6 @@
 from LibSort import *
 from time import time
+from random import randint
 
 for i in range(1, 9):
     n = 10 ** i
